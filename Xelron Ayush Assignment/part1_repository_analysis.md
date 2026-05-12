@@ -14,7 +14,7 @@
 
 **Strictly Python-based repositories (Python as main language):** aiokafka, archivematica, beets, MetaGPT
 
-> \*\*Note on airbyte:\*\* While Python accounts for 51.3% of the codebase, Kotlin (37.6%) and Java (8.6%) together account for nearly half the code. The build system uses Gradle (a Java/Kotlin tool), and core platform services are written in Kotlin/Java. It is a polyglot platform and not strictly Python-primary.
+Note on airbyte: While Python accounts for 51.3% of the codebase, Kotlin (37.6%) and Java (8.6%) together account for nearly half the code. The build system uses Gradle (a Java/Kotlin tool), and core platform services are written in Kotlin/Java. It is a polyglot platform and not strictly Python-primary.
 
 
 ## Detailed Analysis of Python-Primary Repositories
