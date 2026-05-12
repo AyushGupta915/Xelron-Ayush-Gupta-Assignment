@@ -16,7 +16,6 @@
 
 > \\\*\\\*Note on airbyte:\\\*\\\* While Python accounts for 51.3% of the codebase, Kotlin (37.6%) and Java (8.6%) together account for nearly half the code. The build system uses Gradle (a Java/Kotlin tool), and core platform services are written in Kotlin/Java. It is a polyglot platform and not strictly Python-primary.
 
-\---
 
 ## Detailed Analysis of Python-Primary Repositories
 
@@ -29,7 +28,6 @@
 |**Architecture Patterns**|Async/await coroutine pattern; client-server protocol abstraction; coordinator pattern for group membership and partition assignment; pluggable partition assignor strategy pattern|
 |**Target Use Case / Domain**|Backend systems and microservices that need non-blocking, high-throughput message streaming with Kafka using Python's async ecosystem (e.g., alongside `aiohttp` or `FastAPI`)|
 
-\---
 
 ### 2\. artefactual/archivematica
 
@@ -40,8 +38,6 @@
 |**Architecture Patterns**|MVC via Django (dashboard); microservice-style separation between the MCP Server (task orchestrator), MCP Client (worker scripts), and Storage Service; pipeline/workflow pattern for ingest processing|
 |**Target Use Case / Domain**|Archives, libraries, museums, and cultural heritage institutions that need to preserve digital collections with verifiable authenticity and standards-based metadata|
 
-\---
-
 ### 3\. beetbox/beets
 
 |Attribute|Detail|
@@ -51,7 +47,6 @@
 |**Architecture Patterns**|Plugin architecture (the `beetsplug` package); event-driven hooks system; CLI command pattern; SQLite-backed library database with a custom ORM layer|
 |**Target Use Case / Domain**|Power users and audiophiles who want automated, accurate organization and tagging of personal music collections from the command line|
 
-\---
 
 ### 4\. FoundationAgents/MetaGPT
 
@@ -62,7 +57,6 @@
 |**Architecture Patterns**|Role-based agent pattern; message-passing communication between agents; Standard Operating Procedure (SOP) pattern for workflow orchestration; async coroutine concurrency for parallel agent execution|
 |**Target Use Case / Domain**|AI/ML researchers and developers who want to automate end-to-end software development or study multi-agent LLM collaboration and emergent behavior|
 
----
 
 ## Comparative Analysis
 
